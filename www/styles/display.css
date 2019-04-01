@@ -1,0 +1,10 @@
+.display{
+  height:100%;
+}
+canvas{
+  border:3px solid var(--gray);
+  border-radius:25px;
+  min-height:500px;
+  height:100%;
+  width:100%;
+}

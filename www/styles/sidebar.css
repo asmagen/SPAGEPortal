@@ -1,0 +1,39 @@
+.sidebar{
+  padding:25px;
+  border-radius:20px;
+  background-color:var(--gray);
+  height:100%;
+}
+
+#sugCon{
+	max-height:200px;
+	position:relative;
+  display:block;
+	overflow-y:scroll;
+	background-color:white;
+	border:1px solid black;
+	z-index:2;
+}
+#suggestions{
+  position:relative;
+  display:block;
+	left:0%;
+	top:0%;
+	width:100%;
+	overflow:auto;
+	z-index:2;
+}
+div.suggestion{
+	background-color:white;
+}
+div.suggestion:hover{
+	background-color:lightgray;
+}
+
+.sidebar hr{
+  border-top:1px solid black;
+  height:0px;
+}
+.sidebar img{
+  max-width:75%;
+}

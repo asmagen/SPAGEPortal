@@ -1,0 +1,80 @@
+@import "sidebar.css";
+@import "display.css";
+@import "overlay.css";
+
+:root{
+	--gray:#ddd;
+}
+
+#logo{
+	padding-left:25px;
+	font-weight:bold;
+	font-size:35px;
+	color:maroon;
+}
+.hide-data{
+	overflow:hidden;
+	height:0px;
+}
+/*a{
+	color:maroon;
+	font-size:15px;
+}
+a:hover{
+	color:maroon;
+	text-decoration:none;
+}
+label{
+	color:maroon;
+}
+div.row{
+	background-color:maroon;
+}
+#header{
+	background-color:#eeeeee;
+	border-style:solid;
+	border-width:0px 0px 3px 0px;
+	border-color:black;
+}
+#shoutoutColumn{
+	text-align:center;
+}
+#logoColumn{
+	text-align:center;
+}
+canvas{
+	background-color:white;
+	border-style:solid;
+	border-color:black;
+	border-width:0px 3px 3px 3px;
+	z-index:1;
+}
+
+
+#sugCon{
+	max-height:200px;
+	position:fixed;
+	overflow-y:scroll;
+	background-color:white;
+	border:1px solid black;
+	z-index:2;
+}
+#suggestions{
+	position:relative;
+	display:block;
+	left:0%;
+	top:0%;
+	width:100%;
+	overflow:auto;
+	z-index:2;
+}
+div.suggestion{
+	background-color:white;
+}
+div.suggestion:hover{
+	background-color:lightgray;
+}
+
+.dropdown-menu{
+	text-align:center;
+}*/
