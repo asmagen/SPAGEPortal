@@ -1,6 +1,9 @@
 $(document).ready(function(){
   $(".pdf-export").click(function(){
-    var pdf=new jsPDF({orientation:"landscape"});
+    var pdf=new jsPDF({
+      format:[canvas.height,canvas.width],
+      orientation:"landscape"
+    });
 
     var v=graph.visible;
     graph.visible=false;
@@ -20,7 +23,6 @@ $(document).ready(function(){
       data=canvas.toDataURL("image/jpeg",1.0);
       pdf.addImage(data,"JPEG",0,0);
     }
-
     pdf.save("spage-export.pdf");
   });
 });
