@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/178059410.svg)](https://zenodo.org/badge/latestdoi/178059410)
+
 # SPAGE Portal
 ## Portal Usage Instructions
 ### Network and survival plots
